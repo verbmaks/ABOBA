@@ -17,9 +17,9 @@ public class Task6 {
 		int y = in.nextInt();
 		
 		if (((x <=2 && y <= 4 && x >= -2 && y >= 0) || (x <=4 && y <= 0 && x >= -4 && y >= -3)) && (y != -1 && x != 0)) {
-			System.out.println("POPAL");
+			System.out.println("true");
 		} else {
-			System.out.println("MIMO");
+			System.out.println("false");
 		}
 	}
 

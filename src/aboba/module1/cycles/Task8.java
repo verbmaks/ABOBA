@@ -22,12 +22,10 @@ public class Task8 {
 			int reminder = num1 % 10;
 			num1 /= 10;
 			
-			int bufer = num2;
-			while (bufer > 0) {
-				if (bufer % 10 == reminder) {
-					check[reminder] = true;
-				}
-				bufer /= 10;
+			int buff = num2;
+			while (buff > 0) {
+				if (buff % 10 == reminder) check[reminder] = true;
+				buff /= 10;
 			}
 		}
 		
